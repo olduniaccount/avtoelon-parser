@@ -1,7 +1,7 @@
 from details import get_details
 from html_grabber import get_ids, get_max_page
 
-
+# Saves adverts into csv file
 def save_data_to_csv(adverts: list):
     import pandas as pd
     df = pd.DataFrame(adverts)
@@ -15,6 +15,8 @@ all_data = []
 
 page_num = 1
 ids_count = 0
+
+# Iterates through all pages
 while page_num <= get_max_page(host + category):
     ids = get_ids(host + category + "?page=" + str(page_num))
     details = []

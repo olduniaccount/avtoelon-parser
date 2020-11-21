@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 from html_grabber import grab
 
-
+# Grabs details for each advert
 def get_details(ad_id: str, host: str):
     try:
         print("Started getting details from id:", ad_id)
