@@ -1,5 +1,5 @@
 ## Project 1 - Team Gallardo 
-##"avtoelon.uz" - parser
+## "avtoelon.uz" - parser
 #### "Advanced Programming Technologies" course
 
 Hello everyone and welcome to our repository, feel free to leave your questions in comments below
