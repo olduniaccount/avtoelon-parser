@@ -25,7 +25,7 @@ parameters, and it is incredibly fast.
 _Although web scraping can be done manually, in most cases, you might be better off using an automated tool. After all, these are usually faster and less expensive than scraping data manually._
 ***
 
-### Briefly about site
+### Briefly about the site
 
 If you go to the website, you will see a landing page with many photos of cars for sale. In the header, there are four options of site navigation: cars, spare parts and auto-goods,
 repairing and services and commercials. Let’s go to cars -> light ones and set basic parameters to filter. As a result, there are more than thirty thousand advertisements and 1000 of pages, each
@@ -63,7 +63,7 @@ We choose only the main information about the car. Like the picture of the car a
 
 Here’s how site looks like:
 
-![Avtoelonsite](https://s8.gifyu.com/images/Avtoelonsite.gif)
+![Avtoelonsite](https://media.giphy.com/media/xsocI27AoBQ1CptkYo/giphy.gif)
 ***
 ## Sourse code
 
