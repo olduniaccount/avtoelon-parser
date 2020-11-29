@@ -28,8 +28,6 @@ while page_num <= get_max_page(host + category):
     print("page =", page_num, "ids found =", len(ids))
     all_data.append(details)
     page_num += 1
-    if page_num > 80:
-        break
 
 save_data_to_csv([j for i in all_data for j in i])
 
